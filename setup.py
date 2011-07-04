@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(name='isotoma.zope.aqheaders',
-      version="0.0.1",
+      version="0.0.2",
       url="http://www.isotoma.com/",
       author="Richard Mitchell",
       author_email="richard.mitchell@isotoma.com",
