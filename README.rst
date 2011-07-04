@@ -20,6 +20,25 @@ This product was originally devised to aid debugging and to be used to
 prevent spiders or link-checkers processing an endless series of
 URIs which are only made possible by Acquisition.
 
+Installation
+============
+
+Using buildout::
+
+  [buildout]
+  eggs = ...
+         isotoma.zope.aqheaders
+
+  zcml = ...
+         isotoma.zope.aqheaders
+
+The ``zcml`` setting is not necessary if you include
+``isotoma.zope.aqheaders`` as a dependency in ZCML and use z3c.autoinclude_.
+
+.. _z3c.autoinclude: http://pypi.python.org/pypi/z3c.autoinclude
+
+It is not recommended you use this product in your production builds.
+
 Examples
 ========
 
